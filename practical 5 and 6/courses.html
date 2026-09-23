@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>StudentSphere | Courses</title>
+<link rel="stylesheet" href="courses.css">
+</head>
+
+<body>
+
+<a href="dashboard.html" class="dashboard-button">← Back to Dashboard</a>
+
+<header>
+<h1>StudentSphere</h1>
+<p>Your Complete Student Hub</p>
+</header>
+
+<nav>
+<a href="courses.html">Courses</a>
+<a href="colleges.html">Colleges</a>
+<a href="resources.html">Resources</a>
+<a href="scholarships.html">Scholarships</a>
+<a href="events.html">Events</a>
+<a href="community.html">Community</a>
+<a href="profile.html">Profile</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<section class="banner">
+<h2>Explore Popular Courses</h2>
+<p>Choose the best course and begin your learning journey.</p>
+</section>
+
+<section>
+<h2>Popular Courses</h2>
+
+<div class="course-box">
+
+<div class="course" id="webDevelopment">
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=400" alt="Web Development">
+<h3>Web Development</h3>
+<p>Learn HTML, CSS and website designing.</p>
+<button onclick="selectCourse('Web Development')">Select Course</button>
+</div>
+
+<div class="course" id="artificialIntelligence">
+<img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=400" alt="Artificial Intelligence">
+<h3>Artificial Intelligence</h3>
+<p>Build intelligent systems using AI.</p>
+<button onclick="selectCourse('Artificial Intelligence')">Select Course</button>
+</div>
+
+<div class="course" id="cyberSecurity">
+<img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=400" alt="Cyber Security">
+<h3>Cyber Security</h3>
+<p>Protect networks and digital systems.</p>
+<button onclick="selectCourse('Cyber Security')">Select Course</button>
+</div>
+
+</div>
+
+<p id="courseMessage"></p>
+
+</section>
+
+<section>
+<h2>More Courses</h2>
+
+<table>
+<tr>
+<th>Course</th>
+<th>Duration</th>
+<th>Level</th>
+</tr>
+
+<tr>
+<td>Data Science</td>
+<td>6 Months</td>
+<td>Intermediate</td>
+</tr>
+
+<tr>
+<td>Cloud Computing</td>
+<td>4 Months</td>
+<td>Beginner</td>
+</tr>
+
+<tr>
+<td>UI / UX Design</td>
+<td>5 Months</td>
+<td>Beginner</td>
+</tr>
+
+<tr>
+<td>Python Programming</td>
+<td>3 Months</td>
+<td>Beginner</td>
+</tr>
+
+</table>
+</section>
+
+<footer>
+<p>© 2026 StudentSphere</p>
+</footer>
+
+<script src="courses.js"></script>
+<script src="theme.js"></script>
+
+
+</body>
+</html>
