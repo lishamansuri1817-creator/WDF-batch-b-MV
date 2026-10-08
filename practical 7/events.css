@@ -1,0 +1,330 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #F5F7FA;
+}
+header {
+    background: white;
+    text-align: center;
+    padding: 15px;
+}
+header h1 {
+    margin: 0;
+    color: #11666f;
+}
+nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+nav a {
+    text-decoration: none;
+    margin: 15px;
+    color: #333;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #11666f;
+}
+.banner {
+    background: linear-gradient(to right, #e0c4d8, #9fdde9);
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+section {
+    padding: 40px;
+}
+section h2 {
+    text-align: center;
+    color: #11666f;
+}
+.event-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    align-items: stretch;
+}
+.event-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 14px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+.event-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.15);
+}
+.event-card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    display: block;
+}
+.event-card h3 {
+    color: #11666f;
+    font-size: 22px;
+    margin: 20px 15px 10px;
+}
+.event-card p {
+    color: #555;
+    font-size: 15px;
+    margin: 8px 15px;
+    line-height: 1.5;
+}
+.event-card button {
+    background: #11666f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 11px 25px;
+    margin: auto auto 22px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+.event-card button:hover {
+    background: #0d4f56;
+    transform: scale(1.05);
+}
+.dashboard-button {
+    display: inline-block;
+    margin: 15px 20px;
+    color: #11666f;
+    text-decoration: none;
+    font-weight: bold;
+}
+.dashboard-button:hover {
+    text-decoration: underline;
+}
+table {
+    width: 85%;
+    margin: auto;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid gray;
+}
+th {
+    background: #11666f;
+    color: white;
+    padding: 10px;
+}
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    background: #11666f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+@media (max-width: 900px) {
+    .event-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 22px;
+    }
+}
+@media (max-width: 600px) {
+    section {
+        padding: 25px 15px;
+    }
+    .banner {
+        padding: 35px 15px;
+    }
+    .event-container {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+    .event-card img {
+        height: 210px;
+    }
+    nav a {
+        display: inline-block;
+        margin: 8px;
+    }
+    table {
+        width: 100%;
+        font-size: 13px;
+    }
+}
+.logout {
+    background: #E53935;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.logout:hover {
+    background: #C62828;
+    color: white;
+}
+#themeButton {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #11666f;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.dark-mode {
+    background: #121212;
+    color: #eeeeee;
+}
+.dark-mode header {
+    background: #1e1e1e;
+}
+.dark-mode nav {
+    background: #1e1e1e;
+}
+.dark-mode nav a {
+    color: #eeeeee;
+}
+.dark-mode section {
+    background: #121212;
+}
+.dark-mode section h2 {
+    color: #7dd3dc;
+}
+.dark-mode .card,
+.dark-mode .college,
+.dark-mode .post {
+    background: #1e1e1e;
+    color: #eeeeee;
+    border-color: #444444;
+}
+.dark-mode .card p,
+.dark-mode .college p,
+.dark-mode .post p {
+    color: #dddddd;
+}
+.dark-mode table,
+.dark-mode th,
+.dark-mode td {
+    border-color: #555555;
+}
+.dark-mode .about {
+    background: #1e1e1e;
+}
+.dark-mode footer {
+    background: #0d4f56;
+}
+.dark-mode .banner {
+    background: linear-gradient(to right, #49384a, #245963);
+}
+.dark-mode .event-card {
+    background: #1e1e1e;
+    color: #eeeeee;
+    border-color: #444444;
+}
+.dark-mode .event-card p {
+    color: #dddddd;
+}
+.dark-mode .dashboard-button {
+    color: #7dd3dc;
+}
+.event-controls {
+    width: 90%;
+    max-width: 1200px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.event-controls input,
+.event-controls select {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    background: white;
+    color: #333;
+}
+.event-controls input {
+    width: 250px;
+}
+.event-controls select {
+    cursor: pointer;
+}
+.event-controls input:focus,
+.event-controls select:focus {
+    outline: 2px solid #11666f;
+}
+#loadingMessage {
+    text-align: center;
+    color: #11666f;
+    font-weight: bold;
+    margin: 20px;
+}
+.no-results {
+    text-align: center;
+    color: #555;
+    display: none;
+    margin: 25px;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 35px auto;
+}
+.pagination button {
+    background: #11666f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.pagination button:hover {
+    background: #0d4f56;
+}
+.pagination button:disabled {
+    background: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+#pageInfo {
+    color: #11666f;
+    font-weight: bold;
+}
+@media (max-width: 600px) {
+    .event-controls {
+        flex-direction: column;
+        width: 100%;
+    }
+    .event-controls input,
+    .event-controls select {
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .pagination {
+        gap: 10px;
+    }
+    .pagination button {
+        padding: 9px 14px;
+    }
+}
