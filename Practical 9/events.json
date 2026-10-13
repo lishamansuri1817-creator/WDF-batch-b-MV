@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "title": "National Hackathon",
+        "date": "2026-09-15",
+        "location": "Ahmedabad",
+        "category": "Hackathon",
+        "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=500"
+    },
+    {
+        "id": 2,
+        "title": "AI Workshop",
+        "date": "2026-09-25",
+        "location": "Online",
+        "category": "Workshop",
+        "image": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=500"
+    },
+    {
+        "id": 3,
+        "title": "Career Fair",
+        "date": "2026-10-10",
+        "location": "Vadodara",
+        "category": "Career",
+        "image": "https://images.unsplash.com/photo-1515169067868-5387ec356754?w=500"
+    },
+    {
+        "id": 4,
+        "title": "Coding Contest",
+        "date": "2026-10-20",
+        "location": "Surat",
+        "category": "Competition",
+        "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=500"
+    },
+    {
+        "id": 5,
+        "title": "Web Development Seminar",
+        "date": "2026-10-25",
+        "location": "Ahmedabad",
+        "category": "Seminar",
+        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500"
+    },
+    {
+        "id": 6,
+        "title": "Robotics Workshop",
+        "date": "2026-11-05",
+        "location": "Vadodara",
+        "category": "Workshop",
+        "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500"
+    },
+    {
+        "id": 7,
+        "title": "UI-UX Workshop",
+        "date": "2026-12-05",
+        "location": "Vadodara",
+        "category": "Workshop",
+        "image": "https://media.istockphoto.com/id/2211372141/photo/web-ui-ux-design-web-development-along-with-web-design-to-develop-mobile-and-laptop-app.jpg?s=612x612&w=0&k=20&c=LE087d7i-_luqCoZLnaC7lQZ7HJ0bU6GApnk4jz42eQ="
+    },
+    {
+        "id": 8,
+        "title": "DSA Workshop",
+        "date": "2026-11-29",
+        "location": "Online",
+        "category": "Workshop",
+        "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=500"
+    }
+]
