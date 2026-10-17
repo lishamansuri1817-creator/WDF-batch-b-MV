@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentSphere | Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+
+<header>
+    <h1>StudentSphere</h1>
+    <p>Your Complete Student Hub</p>
+</header>
+
+<section class="banner">
+    <h2>Create Your Account</h2>
+    <p>Register yourself to access the StudentSphere Dashboard.</p>
+</section>
+
+<section>
+    <div class="register-box">
+
+        <h2>Student Registration</h2>
+
+        <form id="registerForm"
+              action="process_registration.php"
+              method="POST">
+
+            <label for="name">Full Name</label>
+            <br><br>
+            <input type="text"
+                   id="name"
+                   name="name"
+                   placeholder="Enter Full Name"
+                   maxlength="100"
+                   required>
+
+            <br><br>
+
+            <label for="username">Username</label>
+            <br><br>
+            <input type="text"
+                   id="username"
+                   name="username"
+                   placeholder="Choose a Username"
+                   minlength="3"
+                   maxlength="50"
+                   pattern="[A-Za-z0-9_]+"
+                   title="Use only letters, numbers and underscores."
+                   required>
+
+            <br><br>
+
+            <label for="email">Email Address</label>
+            <br><br>
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="Enter Email"
+                   maxlength="254"
+                   required>
+
+            <br><br>
+
+            <label for="password">Password</label>
+            <br><br>
+            <input type="password"
+                   id="password"
+                   name="password"
+                   placeholder="Enter Password"
+                   minlength="7"
+                   required>
+
+            <br><br>
+
+            <label for="confirmPassword">Confirm Password</label>
+            <br><br>
+            <input type="password"
+                   id="confirmPassword"
+                   name="confirmPassword"
+                   placeholder="Confirm Password"
+                   required>
+
+            <br><br>
+
+            <input type="submit" value="Register">
+
+        </form>
+
+        <br>
+
+        <p style="text-align:center;">
+            Already have an account?
+           
+<a href="login.php">Login Here</a>
+
+        </p>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 StudentSphere</p>
+</footer>
+
+<script src="register.js"></script>
+<script src="theme.js"></script>
+<script src="ad.js"></script>
+
+</body>
+</html>
